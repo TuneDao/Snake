@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Alger.ttf" />
+    <None Remove="Assets\body.png" />
+    <None Remove="Assets\deadbody.png" />
+    <None Remove="Assets\deadhead.png" />
+    <None Remove="Assets\Empty.png" />
+    <None Remove="Assets\food.png" />
+    <None Remove="Assets\head.png" />
+    <None Remove="Assets\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Alger.ttf" />
+    <Resource Include="Assets\body.png" />
+    <Resource Include="Assets\deadbody.png" />
+    <Resource Include="Assets\deadhead.png" />
+    <Resource Include="Assets\Empty.png" />
+    <Resource Include="Assets\food.png" />
+    <Resource Include="Assets\head.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\icon.ico" />
+  </ItemGroup>
+
+</Project>
